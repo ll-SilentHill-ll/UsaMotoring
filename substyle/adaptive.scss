@@ -1,0 +1,410 @@
+@media screen and ( max-width: 1510px ) {
+
+  .why_usa .why_usa_block  {
+  max-width: 380px;
+  }
+
+  .main-text {
+    padding-right: 20px;
+  }
+}
+
+@media screen and ( max-width: 1440px ) {
+
+  .answer_block h4 {
+    width: 93%;
+  }
+
+  .art-block_img {
+    max-width: 410px;
+    height: 310px;
+  }
+
+}
+
+@media screen and ( max-width: 1368px ) {
+
+  .why_we .why_we_block {
+    max-width: 580px;
+  }
+
+  .articles-block {
+    max-width: 580px;
+    margin-bottom: 20px;
+  }
+
+  .articles-block_last {
+    margin: auto;
+  }
+
+  .art-block_img {
+    max-width: 100%;
+
+  }
+}
+
+@media screen and ( max-width: 1290px ) {
+
+  .why_usa .why_usa_block {
+    max-width: 520px;
+  }
+
+  .why_we .why_we_block {
+    max-width: 500px
+  }
+
+  .why_usa_line {
+    display: none;
+  }
+
+  .why_usa_center {
+    position: relative;
+    top: 0px;
+  }
+
+  .whyusa h2 {
+    margin-bottom:80px
+  }
+
+  .articles-block {
+    max-width: 540px;
+  }
+
+  .row-etap-number p {
+    padding-left: 120px;
+  }
+
+  .row-etap-number {
+    max-width: 540px;
+  }
+}
+
+
+@media screen and (max-width: 1150px) {
+  .aboutus {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .art-block_img {
+    max-width: 480px;
+  }
+
+  .row-element2 {
+    display: none;
+  }
+
+  .row-etap-number p {
+    padding-left: 20px;
+  }
+
+  .row-etap-number h3 {
+    padding-left: 20px;
+  }
+
+  .row-etap-number {
+    max-width: 440px;
+  }
+
+  .row-element2-r {
+    display: none;
+  }
+
+  .row-etap-number-r p {
+    padding-right: 20px;
+
+  }
+
+  .row-etap-number-r {
+    max-width: 480px;
+  }
+
+  .callback-form form {
+    max-width: 480px;
+  }
+
+  .review_rating {
+    position: relative;
+    margin-bottom: 5px;
+  }
+
+  .map_contact iframe {
+    max-width: 420px;
+  }
+
+  .why_usa .why_usa_block {
+    max-width: 640px;
+  }
+
+  .why_we .why_we_block {
+    max-width: 470px;
+  }
+
+  .footer_contant {
+    flex-wrap: wrap;
+  }
+
+  .footer__block {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  footer .footer_logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo img {
+    max-height: 40px;
+  }
+
+}
+
+@media screen and (max-width: 1050px) {
+  .about-block img {
+    margin-right: 0px;
+  }
+
+  .art-block_img {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .logo span {
+    display: none;
+  }
+  .main {
+    margin-top: 40px;
+  }
+
+  .callback_content {
+    flex-wrap: wrap;
+  }
+
+  .callback-form form {
+    max-width: 680px;
+  }
+
+  .map_contact {
+    width: 680px;
+    padding-bottom: 80px;
+  }
+
+  .map_contact iframe {
+    max-width: 620px;
+  }
+
+  .why_we .why_we_block {
+    max-width: 680px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .about-block {
+    position: relative;
+    padding-bottom: 20px;
+    max-width: 680px;
+
+  }
+  .about-block img {
+    position: absolute;
+    opacity: 0.1;
+    top: 100px;
+    right: -5vw;
+  }
+
+  .articles-block {
+    max-width: 680px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .art-block_img {
+    max-width: 680px;
+    height: 380px;
+  }
+
+  .faq_img img {
+    display: none;
+  }
+
+
+  .etap {
+    display: none;
+  }
+
+  .etap_adapt {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .faq {
+    gap: 0px;
+  }
+
+  .main-img {
+    position: absolute;
+    right: 0px;
+  }
+
+  .main-text {
+    max-width: 53vw;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .carslider__line {
+    display: none;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .logo span {
+    display: block;
+  }
+
+  .carslider h2 {
+    width: 100%;
+    max-width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .main-img {
+    position: relative;
+  }
+
+  .main {
+    flex-wrap: wrap;
+  }
+
+  .main-text {
+    max-width: 100%;
+    padding-right: 0px;
+  }
+
+  .main-img img {
+    width: 100%;
+  }
+
+  .mi-auto_name {
+    justify-content: flex-end;
+  }
+
+  .etap_adapt {
+    max-width: 100%;
+  }
+
+  .about-block img {
+    right: 0vw;
+  }
+
+  .articles-block {
+    width: 100%;
+
+  }
+
+  .art-block_img {
+    width: 100%;
+  }
+
+  .callback-form form {
+    width: 95vw;
+  }
+
+  .map_contact iframe {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .c__position {
+    display: none;
+  }
+
+  .art-block_img {
+    height: 280px;
+  }
+
+  .carslider_flex {
+    gap: 0px;
+  }
+
+  .priceblock {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .usa-pice {
+    width: 90vw;
+
+  }
+
+  .uah-pice {
+    width: 90vw;
+  }
+
+  .eco-pice {
+    width: 90vw;
+  }
+
+  .line-price {
+    display: none;
+  }
+
+  .example p {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .mb_click {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .reviews_container {
+    gap: 0px;
+  }
+
+  .slider_arrow {
+    display: none;
+  }
+
+  .review_arrow {
+    display: none;
+  }
+
+  .morecars-slider {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+
+  .carslider__line {
+    display: block;
+  }
+
+  .carslider_flex {
+    gap: 10px;
+  }
+}

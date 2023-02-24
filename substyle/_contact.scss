@@ -1,0 +1,42 @@
+.contact {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+
+  h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(144, 144, 144);
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  p {
+    padding-bottom: 20px;
+    line-height: 1.7;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+
+    i {
+      padding-right: 10px;
+      color: rgb(14, 82, 35);
+    }
+
+      span {
+        line-height: 1.7;
+        font-weight: 400;
+      }
+
+  }
+
+}
+
+.contact-box iframe {
+  max-width:750px;
+  width: 40vw;
+  height: 300px;
+  border-radius: 5px;
+  margin-right: 40px;
+}

@@ -1,0 +1,84 @@
+.art-block_img {
+  max-width: 438px;
+  width: 100vw;
+  height: 328px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+  opacity: 0.7;
+  border-radius: 5px;
+
+  box-shadow: 10px 10px 24px 4px rgb(0 0 0 / 75%);
+  transition: 0.7s;
+}
+
+.art-news_one {
+  background-image: url(../img/powershift.jpg);
+
+}
+
+.articles {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  cursor: pointer;
+
+}
+
+.art-news_two {
+  background-image: url(../img/news2.jpg);
+
+}
+
+.art-news_three {
+  background-image: url(../img/news3.jpg);
+}
+
+.art-block_share {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.art-block_title {
+  border-bottom: 1px solid #c0c0c0;;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(14, 82, 35);
+}
+
+.art-block_date {
+    padding-bottom: 10px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.share__text {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.articles-block {
+  max-width: 438px;
+}
+
+.articles-block:hover {
+
+  .art-block_img {
+    opacity: 1;
+    transition: 0.7s;
+  }
+
+  .art-block_title {
+    color: rgb(14, 82, 35);
+  }
+
+}
+
+.articles_h2 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

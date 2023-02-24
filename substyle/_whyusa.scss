@@ -1,0 +1,66 @@
+.why_usa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap:20px;
+
+  .why_usa_block {
+    max-width: 450px;
+    margin-bottom: 40px;
+    i {
+      font-size: 54px;
+      color: rgb(14, 82, 35);
+      margin-bottom: 15px;
+      .passive {
+        color: #808080;
+      }
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: 900;
+      color: #393939;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+      opacity: 0.7;
+    }
+  }
+}
+
+
+.whyusa {
+  position: relative;
+  max-width: 1920px;
+  margin: auto;
+  background-image: url(../img/mapswhy.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+
+
+  h2 {
+    text-align: center;
+    margin-top: 80px;
+
+    margin-bottom: 160px;
+    font-weight: 700;
+    font-size: 60px;
+    max-width: 1150px;
+  }
+}
+
+.why_usa_center {
+  position: relative;
+  top: -80px;
+}
+
+.why_usa_line {
+  width: 1px;
+  height: auto;
+  background-color: black;
+  opacity: 0.3;
+}

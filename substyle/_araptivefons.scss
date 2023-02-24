@@ -1,0 +1,38 @@
+
+
+$maxWidth: 1480;
+@mixin fonsadaptive ($pcSize, $mobSize) {
+ $addSize: $pcSize - $mobSize;
+ $maxWidth: $maxWidth - 320;
+ font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+
+
+h1 {
+  @include fonsadaptive (44, 25);
+}
+
+.name_h2 h2 {
+  @include fonsadaptive (60, 34);
+}
+
+.carslider_h2 h2 {
+  @include fonsadaptive (60, 34);
+}
+
+.contact-box h2 {
+  @include fonsadaptive (60, 34);
+}
+
+.priceblock span {
+  @include fonsadaptive (45, 18);
+}
+
+.main-text p {
+  @include fonsadaptive (14, 12);
+}
+
+
+.mb_click {
+  @include fonsadaptive (14, 12);
+}

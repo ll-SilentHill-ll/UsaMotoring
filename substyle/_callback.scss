@@ -1,0 +1,131 @@
+.callback-form {
+
+
+  h3 {
+    text-align: center;
+
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #393939;
+    font-size: 18px;
+  }
+
+.form-flexbox {
+  background-color: rgb(255 255 255 / 43%);
+  text-align: center;
+}
+
+  form {
+    max-width: 520px;
+    margin: auto;
+
+    input {
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #989898;
+      background-color: #eaeaea;
+      border-radius: 5px;
+      font-family: 'Montserrat', sans-serif;
+      color: #393939;
+
+    }
+
+    textarea {
+      font-family: 'Montserrat', sans-serif;
+      max-width: 100%;
+      background-color: #eaeaea;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #989898;
+      margin-bottom: 16px;
+      resize: none;
+      height: 135px;
+
+
+    }
+  }
+
+}
+
+.callback {
+  background-image: url('../img/bgmustang.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.callback_h2 h2{
+  background-color: transparent;
+  margin-top: 0px;
+  max-width: 700px;
+  color: #909090;
+}
+
+.form-button {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #989898;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 1s;
+  letter-spacing: 1.2px;
+  background: linear-gradient(153deg, rgb(14, 82, 35) 26%, rgb(2, 36, 19) 87%);
+  opacity: 0.8;
+  transition: 0.3s;
+
+}
+
+.form-button:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.callback_content {
+  display: flex;
+  justify-content: center;
+  gap: 50px
+}
+
+
+.map_contact {
+  background-color: rgb(255 255 255 / 43%);
+  border-radius: 5px;
+  width: 520px;
+  text-align: center;
+  iframe {
+
+  max-width: 460px;
+  width: 100%;
+  max-height: 210px;
+  height: 100%;
+  }
+
+  p {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.7;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  i {
+    font-size: 24px;
+    padding-right: 10px;
+    color: rgb(14, 82, 35);
+  }
+}
+
+.form-flexbox {
+  padding: 30px;
+  border-radius: 5px;
+}

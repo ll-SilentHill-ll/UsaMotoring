@@ -1,0 +1,57 @@
+.name_h2 h2 {
+  text-align: center;
+  margin: auto;
+  color: rgb(144, 144, 144);
+  margin-top: 80px;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 60px;
+  position: relative;
+  max-width: 480px;
+  z-index: 12;
+  background-color: #eaeaea;
+}
+
+
+
+.why_we {
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: space-between;
+  .why_we_block{
+    max-width: 640px;
+    text-align: center;
+    margin-bottom: 80px;
+    i {
+      font-size: 54px;
+      margin-bottom: 15px;
+      color: rgb(14, 82, 35);
+    }
+
+    h3 {
+      font-size: 24px;
+      font-weight: 900;
+      color: #393939;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+      opacity: 0.7;
+    }
+  }
+}
+.container-name {
+  position: relative;
+}
+
+.name_line {
+  width: 100%;
+  height: 1px;
+  background-color: #c0c0c0;;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
