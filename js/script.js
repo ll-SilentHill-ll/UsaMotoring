@@ -26,6 +26,13 @@ $(document).ready(function(){
 	$('.showicon').addClass('showicon-on')
 	});
 
+	$('.price_slide__button').click(function(){
+	$('.showicon').addClass('showicon-on')
+	});
+
+	$('.showicon-off').click(function(){
+	$('.showicon').removeClass('showicon-on')
+	});
 
 	var $page = $('html, body');
 	$('a[href*="#"]').click(function() {
@@ -35,32 +42,5 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$(function() {
-  const $modal = $('.showicon');
-  const $closeBtn = $('.showicon-off');
-  const $openModalBtn = $('.price_slide__button');
-
-  // Функція для відкриття модального вікна
-  function showModal() {
-    $modal.fadeIn();
-  }
-
-  // Функція для закриття модального вікна
-  function hideModal() {
-    $modal.fadeOut();
-  }
-
-  // Додавання обробника події на кнопку закриття
-  $closeBtn.on('click', hideModal);
-
-  // Додавання обробника події на клік по модальному вікні
-  $modal.on('click', function(e) {
-    if ($(e.target).hasClass('modal')) {
-      hideModal();
-    }
-  });
-
-  // Додавання обробника події на клік по кнопці, що відкриває модальне вікно
-  $openModalBtn.on('click', showModal);
-});
+	
 })
