@@ -9,13 +9,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="shortcut icon" href="/img/t-logo1.png" type="image/png">
   <title>BuyCar - Найкраще авто для тебе!</title>
 </head>
 <body>
 
-  <header>
-    <div class="headermap container"><img src="../img/headermap1.png" alt=""></div>
+  <header >
+    <div class="headermap container"><img src="./img/headermap1.png" alt=""></div>
 
     <div class="top-line">
       <div class="container">
@@ -38,41 +39,74 @@
 
     <div class="bottom-line container">
       <div class="logo">
-        <img src="../img/t-logo1.png" alt="">
+        <img src="./img/t-logo1.png" alt="">
         <span>BUYCARS</span>
       </div>
 
       <nav class="header__menu">
         <ul class="header__list">
           <li>
-            <a href="" class="header__link">ГОЛОВНА</a>
+            <a href="#prikladavto" class="header__link">ПРИКЛАДИ АВТО</a>
           </li>
           <li>
-            <a href="" class="header__link">ДОСТАВКА</a>
+            <a href="#perevaga" class="header__link">ПЕРЕВАГИ</a>
           </li>
           <li>
-            <a href="" class="header__link">АВТО В НАЯВНОСТІ</a>
+            <a href="#etap" class="header__link">ЕТАПИ</a>
           </li>
           <li>
-            <a href="" class="header__link">КОНТАКТИ</a>
+            <a href="#faq" class="header__link">ПИТАННЯ</a>
           </li>
           <li>
-            <a href="" class="header__link">ГАРАНТІЇ</a>
+            <a href="#vidguk" class="header__link">ВІДГУКИ</a>
           </li>
           <li>
-            <a href="" class="header__link">F.A.Q.</a>
+            <a href="#contact" class="header__link">КОНТАКТИ</a>
           </li>
 
         </ul>
       </nav>
+
+      <nav class="adaptive__menu">
+        <ul class="ad_header__list">
+          <li>
+            <a href="#prikladavto" class="ad_header__link">ПРИКЛАДИ АВТО</a>
+          </li>
+          <li>
+            <a href="#perevaga" class="ad_header__link">ПЕРЕВАГИ</a>
+          </li>
+          <li>
+            <a href="#etap" class="ad_header__link">ЕТАПИ</a>
+          </li>
+          <li>
+            <a href="#faq" class="ad_header__link">ПИТАННЯ</a>
+          </li>
+          <li>
+            <a href="#vidguk" class="ad_header__link">ВІДГУКИ</a>
+          </li>
+          <li>
+            <a href="#contact" class="ad_header__link">КОНТАКТИ</a>
+          </li>
+
+        </ul>
+
+        <div class="ad-menu_off"></div>
+      </nav>
+
+      <span class="heder-line">
+          <snap class="heder-line_one"></snap>
+          <snap class="heder-line_two"></snap>
+          <snap class="heder-line_three"></snap>
+          <snap class="heder-line_foure"></snap>
+      </span>
     </div>
 
     <div class="main container">
 
       <div class="main-text">
-        <h1>ЗАМОВИТИ АВТО З США</h1>
-        <p>Беремо на себе все: від вибору якісного авто та його доставки, до ремонту та повного оформлення. З нами ви купите автомобіль своєї мрії, зекономивши при цьому від 20% до 40% вартості.</p>
-        <div class="main_button">
+        <h1 class="animate__animated animate__fadeInDown animate__delay-0.5s">ЗАМОВИТИ АВТО З США</h1>
+        <p class="animate__animated animate__fadeInDown animate__delay-0.7s">Беремо на себе все: від вибору якісного авто та його доставки, до ремонту та повного оформлення. З нами ви купите автомобіль своєї мрії, зекономивши при цьому від 20% до 40% вартості.</p>
+        <div class="main_button animate__animated animate__fadeInDown animate__delay-0.9s">
           <div class="mb_click">ПІДРАХУВАТИ ВАРТІСТЬ</div>
           <div class="mb_line"></div>
           <div class="mb_dots"></div>
@@ -83,20 +117,26 @@
 
 
       <div class="main-img">
-        <div class="mi-auto_name">
+        <div class="mi-auto_name animate__animated animate__fadeInDown animate__delay-2s">
           <div class="mia__line"></div>
           <div class="mia__name">AUDI A5 SPORTBACK</div>
         </div>
-        <img src="../img/mainimg.png" alt="">
+        <img class="animate__animated animate__fadeInRight animate__delay-1s" src="./img/mainimg.png" alt="">
+
+        <div class="mi-auto_name mi-auto_name_adapt">
+          <div class="mia__line"></div>
+          <div class="mia__name">AUDI A5 SPORTBACK</div>
+        </div>
+
       </div>
 
     </div>
 
     <div class="example container">
-      <p>НАПРИКЛАД:</p>
-      <div class="priceblock">
+      <p class="animate__animated animate__fadeInDown animate__delay-2s">НАПРИКЛАД:</p>
+      <div class="priceblock animate__animated animate__fadeInDown animate__delay-2s">
         <div class="usa-pice">
-          <span>$ 16 800 </span> <p>ЦІНА АВТО В США З РЕМОНТОМ</p>
+          <span>$ 16 800 </span> <p>ЦІНА З РЕМОНТОМ</p>
         </div>
         <div class="line-price"></div>
         <div class="uah-pice">
@@ -106,8 +146,6 @@
         <div class="eco-pice">
           <span>$ 8 500</span> <p>ЕКОНОМІЯ</p>
         </div>
-
-        <div class="line-price"></div>
     </div>
   </header>
 
@@ -124,34 +162,42 @@
             <i class="fas fa-user-friends"></i>
             <h3>8 років досвіду</h3>
             <p>
-              Ми супроводжуємо Ваш автомобіль з моменту вибору оптимального для Вас варіанту, на аукціоні до розмитнення та ремонту. Ви отримуєте готовий автомобіль «під ключ»!
+              Коли інші ще займалися старими “євробляхами”, ми вже доставляли свіжі  автомобілі з США та Канади.
             </p>
         </div>
 
         <div class="why_we_block">
             <i class="fas fa-cogs"></i>
-            <h3>Експертиза в підборі</h3>
-            <p>Мы сопровождаем Ваше авто от момента выбора оптимального варианта на аукционе до растаможки и ремонта. Вы получаете готовое авто «под ключ»!</p>
+            <h3>Експертний підбір</h3>
+            <p>Перевіримо історію та технічний стан авто по американським базам, оцінимо стан кузова та ступінь пошкоджень, детально прорахуємо вартість ремонту.</p>
         </div>
 
         <div class="why_we_block">
             <i class="fas fa-user-shield"></i>
-            <h3>Прозорість угоди</h3>
-            <p>Мы сопровождаем Ваше авто от момента выбора оптимального варианта на аукционе до растаможки и ремонта. Вы получаете готовое авто «под ключ»!</p>
+            <h3>Повний супровід</h3>
+            <p>Ми оформимо всі необхідні документи, доставимо, самостійно розмитнимо та зареєструємо автомобіль, надамо фото звіти з кожного етапу. Ваш персональний менеджер завжди готовий відповісти на будь-які питання.</p>
+        </div>
+
+        <div class="why_we_block">
+          <i class="far fa-handshake"></i>
+            <h3>Вигідні та прозорі ціни</h3>
+            <p>Всі розрахунки стосовно кінцевої вартості авто ми проводимо наперед, отже ви застраховані від непередбачених витрат. Прямі договори з міжнародними компаніями дають змогу доставляти автомобілі та купувати запчастини для них за найнижчими цінами.</p>
         </div>
 
         <div class="why_we_block">
             <i class="far fa-clock"></i>
-            <h3>Ми НЕ купимо вам авто за 24 години!</h3>
-            <p>Мы сопровождаем Ваше авто от момента выбора оптимального варианта на аукционе до растаможки и ремонта. Вы получаете готовое авто «под ключ»!</p>
+            <h3>Гарантія на терміни доставки</h3>
+            <p>Ваше авто прибуде в обумовлені терміни, або ми оплатимо його детейлінг.</p>
         </div>
       </div>
     </div>
 
 
     <div class="carslider container">
+      <a id='prikladavto'></a>
       <div class="container-name carslider_flex">
         <div class="carslider_h2"><h2>ПРИКЛАДИ АВТО</h2></div>
+
         <div class="carslider__line"></div>
         <div class="slider_arrow">
           <div class="slider_arrow_left"><</div>
@@ -250,7 +296,6 @@
             <a href="#" class="price_slide__button">ЗАМОВИТИ АВТО ДЛЯ СЕБЕ</a>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
         <a href="#" class="morecars-slider">ПОДИВИТИСЯ БІЛЬШЕ АВТО <i class="fa-solid fa-arrow-right-long"></i></a>
       </div>
 
@@ -259,6 +304,7 @@
 
     <div class="whyusa">
       <div class="container">
+        <a id='perevaga'></a>
         <div class="container-name">
           <div class="name_h2"><h2>ЧОМУ ВАРТО КУПУВАТИ В США?</h2></div>
           <div class="name_line"></div>
@@ -266,8 +312,8 @@
         <div class="why_usa">
           <div class="why_usa_block">
             <i class="far fa-credit-card"></i>
-            <h3>Оплата</h3>
-            <p>Вам не нужно сразу вносить всю сумму. Вначале Вы оплачиваете только стоимость машины и аукционный сбор. Остальные платежи – после доставки авто в порт Одесса.</p>
+            <h3>Ціна</h3>
+            <p>Швидше за все Ви вже помітили, що більшість авто, які продаються на вторинному ринку України були пригнані з США. Основною причиною цього є фінансова складова, адже це на 20-40% дешевше, ніж купити аналогічну модель в Україні. До того ж, замовляючи авто із США, не потрібно оплачувати всю суму відразу – оплата відбувається поетапно.</p>
           </div>
 
           <div class="why_usa_block why_usa_line why_usa_center">
@@ -275,8 +321,8 @@
           </div>
           <div class="why_usa_block why_usa_center">
             <i class="fas fa-road"></i>
-            <h3>Среда авто</h3>
-            <p>В США качественное топливо, и строгие требования к регулярному прохождению ТО, поэтому двигатель и коробка Вашего авто будут в превосходном состоянии! Так же это единственная страна в которой действительно работают отзывные компании автопроизводителей.</p>
+            <h3>Комплектація</h3>
+            <p> Ні для кого не секрет, що автомобілі створені для американського ринку краще оснащені. Тут частіше зустрічаються такі функції як клімат-контроль, адаптивний круїз, масаж сидінь та навіть автопілот. Крім цього, американці добре дбають про свою безпеку, то ж і їх автомобілі оснащені за останнім словом техніки. Ще однією перевагою є покращена антикорозійну обробка кузова.</p>
           </div>
 
           <div class="why_usa_block why_usa_line why_usa_center">
@@ -285,14 +331,14 @@
 
           <div class="why_usa_block">
             <i class="fas fa-history"></i>
-            <h3>Полная история</h3>
-            <p>В США с этим все очень строго. За "скручивание" пробега лишают свободы сроком до 3-х лет. Так же доступна информация по ДТП стоимость которых превышает 750у.е.</p>
+            <h3>Повна історія</h3>
+            <p>Всі дані про авто потрапляють до американських баз даних, по яких ми можемо перевірити реальність пробігу, наявність ДТП чи інших страхових випадків, кількість власників, належність до таксопарків чи прокатних організацій, та навіть регулярність і місце обслуговування автомобіля.</p>
           </div>
 
           <div class="why_usa_block">
-            <i class="fas fa-hand-holding-usd"></i>
-            <h3>Цена</h3>
-            <p>Покупая авто в США Вы экономите до 40% в сравнении с покупкой аналогичного авто в Украине.</p>
+            <i class="fas fa-cogs" aria-hidden="true"></i>
+            <h3>Технічний стан</h3>
+            <p>Середній вік авто в США складає 3-4 роки. Хороші дороги, якісне пальне, суворі вимоги до проходження ТО, та обов’язкові тести на викиди СО2 забезпечують чудовий технічний стан транспортних засобів. Крім того, США одна з небагатьох країн де дійсно працюють відзивні кампанії автовиробників.</p>
           </div>
           <div class="why_usa_block why_usa_line ">
 
@@ -300,21 +346,26 @@
 
           <div class="why_usa_block">
             <i class="fas fa-hourglass-start passive"></i>
-            <h3>Нужно ждать</h3>
-            <p>Единственным минусом является то, что Вам придется ждать свое авто от полтора до двух с половиной месяцев.</p>
+            <h3>Потрібно чекати</h3>
+            <p>
+              Єдиним мінусом являється те, що Вам доведеться чекати свій автомобіль від півтора до трьох місяців.
+            </p>
           </div>
         </div>
       </div>
 
       <div class="container c_etap">
+        <a id='etap'></a>
         <div class="container-name">
           <div class="name_h2 etap_h2"><h2>ЕТАПИ</h2></div>
           <div class="name_line"></div>
         </div>
         <div class="etap_adapt">
           <b><i class="fas fa-car" aria-hidden="true"></i></b>
-          <h3>Выбор авто</h3>
-          <p>Первый и самый важный этап это грамотный подбор авто. Наши эксперты детально проверяют историю автомобиля,предлагают только наилучшие варианты от стаховых компаний. Детально изучаем конкретное авто под ваши предпочтения, стоимость деталей и его ремонта. Для вашего удобства варианты предоставляем на ел.почту, viber,telegram...</p>
+          <h3>Підбір авто</h3>
+          <p>
+             Спочатку наш експерт відфільтровує автомобілі за заданими Вами критеріями (марка, модель, комплектація, пробіг і тд.) та виділяє варіанти з мінімальними пошкодженнями. Далі проводиться перевірка по VIN-коду про оригінальність пробігу, попередні ДТП чи інші страхові випадки, кількість власників, своєчасність технічного обслуговування. Ми не купимо Вам кота в мішку, адже обираємо лише надійних продавців – страхові компанії.
+          </p>
           <div class="etap_adapt_number">1</div>
           <div class="etap_adapt_linevert"></div>
           <div class="etap_adapt_linegorz"></div>
@@ -324,8 +375,8 @@
 
         <div class="etap_adapt">
           <b><i class="fas fa-percent" aria-hidden="true"></i></b>
-          <h3>Торги</h3>
-          <p>Мы участвуем в торгах в любое время суток.Вы можете наблюдать за ходом торгов у себя дома или лично быть в нашем офисе.</p>
+          <h3>Торги на аукціоні</h3>
+          <p>Ми проводимо повний розрахунок вартості автомобіля із врахуванням всіх затрат (доставка, розмитнення, ремонт, сертифікація та постановка на облік) і визначаємо максимальну ставку, яку можемо зробити під час торгів, щоб не вийти за рамки вашого бюджету. Такий підхід оберігає наших клієнтів від переплат та прихованих платежів. Узгодивши максимальну ставку, купуємо авто на аукціоні та проводимо оплату будь-яким зручним для вас способом.</p>
           <div class="etap_adapt_number">2</div>
           <div class="etap_adapt_linevert"></div>
           <div class="etap_adapt_linegorz"></div>
@@ -335,8 +386,10 @@
 
         <div class="etap_adapt">
           <b><i class="fas fa-road" aria-hidden="true"></i></b>
-          <h3>Доставка авто</h3>
-          <p>После покупки авто мы доставляем его на нашу ближайшую припортовую площадку. По прибытию авто площадку производиться фотоотчёт, консолидация и погрузки в контейнер. Отправка морем из 8 портов США.</p>
+          <h3>Доставка</h3>
+          <p>
+            Після покупки на аукціоні ми доставляємо авто на нашу найближчу припортову площадку, де проводимо фотозвіт (наші клієнти отримують 20-40 якісних фото автомобіля з різних ракурсів). Тут транспортні засоби завантажуються в контейнери та доставляються в найближчий морський порт для подальшого відправлення в Європу.
+          </p>
           <div class="etap_adapt_number">3</div>
           <div class="etap_adapt_linevert"></div>
           <div class="etap_adapt_linegorz"></div>
@@ -346,8 +399,10 @@
 
         <div class="etap_adapt">
           <b><i class="far fa-handshake" aria-hidden="true"></i></b>
-          <h3>Растаможка</h3>
-          <p>Мы берём на себя весь комплекс работ: открытие контейнера, выгрузку, экспедицию и таможенную очистку. Все это без вашего присутствия и лишней траты времени.</p>
+          <h3>Розмитнення</h3>
+          <p>
+            По прибуттю в європейський порт транспортні засоби розвантажуються з контейнерів, так само проводиться детальний фотозвіт, та відправляються в Україну. Після перетину кордону ми займаємось розмитненням, для цього ваша присутність не обов’язкова. Пройшовши процедуру митного оформлення, ви можете забрати авто самостійно, або ми доставимо його у ваше місто чи місце подальшого ремонту.
+          </p>
           <div class="etap_adapt_number">4</div>
           <div class="etap_adapt_linevert"></div>
           <div class="etap_adapt_linegorz"></div>
@@ -357,8 +412,8 @@
 
         <div class="etap_adapt">
           <b><i class="fas fa-map-marker-alt" aria-hidden="true"></i></b>
-          <h3>Доставка в город</h3>
-          <p>Доставка Вашего авто производиться нашими лафетами из Одессы в любой город Украины</p>
+          <h3>Ремонт</h3>
+          <p>За потреби ми можемо допомогти з ремонтом вашого автомобіля. Замовлення запчастин здебільшого відбувається до приїзду авто в Україну, що значно пришвидшує процес ремонту. Ми підбираємо як оригінальні деталі, так і якісні аналоги (за бажанням клієнта). Якщо ви бажаєте зробити хімчистку салону автомобіля, провести оклейку плівкою чи відполірувати кузов – ми чудово з цим впораємось!</p>
           <div class="etap_adapt_number">5</div>
           <div class="etap_adapt_linevert"></div>
           <div class="etap_adapt_linegorz"></div>
@@ -368,8 +423,10 @@
 
         <div class="etap_adapt">
           <b><i class="fas fa-tools" aria-hidden="true"></i></b>
-          <h3>Ремонт</h3>
-          <p>Мы предоставляем услуги по ремонту вашего авто. Заказ запчастей чаще всего происходит до приезда авто в Украину, что позволяет нам быстро начать ремонт. Мы покупаем запчасти по самым низким ценам. Вы можете оплачивать их напрямую, без нашей наценки.</p>
+          <h3>Реєстрація</h3>
+          <p>
+            Останнім етапом є проходження сертифікації та реєстрація авто в сервісному центрі МВС. Тут нічого складного немає, проте за бажанням ми можемо взяти ці клопоти на себе. В тому числі оформити КАСКО чи автоцивілку.                                                                                                      Частим бажанням наших клієнтів є вибір гарної комбінації номерних знаків, для когось це 7777 чи 0001, а для когось якась важлива дата. Якщо хочете й собі цікавий номер – просто нагадайте про це персональному менеджеру і він все організує!
+          </p>
           <div class="etap_adapt_number">5</div>
           <div class="etap_adapt_linevert"></div>
           <div class="etap_adapt_linegorz"></div>
@@ -392,8 +449,10 @@
           </div>
 
           <div class="row-etap-number row-etap-number-s adaptive-number_two">
-            <h3>Доставка авто</h3>
-            <p>После покупки авто мы доставляем его на нашу ближайшую припортовую площадку. По прибытию авто площадку производиться фотоотчёт, консолидация и погрузки в контейнер. Отправка морем из 8 портов США.</p>
+            <h3>Доставка</h3>
+            <p>
+              Після покупки на аукціоні ми доставляємо авто на нашу найближчу припортову площадку, де проводимо фотозвіт (наші клієнти отримують 20-40 якісних фото автомобіля з різних ракурсів). Тут транспортні засоби завантажуються в контейнери та доставляються в найближчий морський порт для подальшого відправлення в Європу.
+            </p>
             <div class="row-element1"></div>
             <div class="row-element2"><i class="fas fa-road" aria-hidden="true"></i></div>
             <div class="row-element3"></div>
@@ -401,8 +460,10 @@
           </div>
 
           <div class="row-etap-number row-etap-number-s adaptive-number_three">
-            <h3>Доставка в город</h3>
-            <p>Доставка Вашего авто производиться нашими лафетами из Одессы в любой город Украины</p>
+            <h3>Ремонт</h3>
+            <p>
+              За потреби ми можемо допомогти з ремонтом вашого автомобіля. Замовлення запчастин здебільшого відбувається до приїзду авто в Україну, що значно пришвидшує процес ремонту. Ми підбираємо як оригінальні деталі, так і якісні аналоги (за бажанням клієнта). Якщо ви бажаєте зробити хімчистку салону автомобіля, провести оклейку плівкою чи відполірувати кузов – ми чудово з цим впораємось!
+            </p>
             <div class="row-element1"></div>
             <div class="row-element2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
             <div class="row-element3"></div>
@@ -412,8 +473,8 @@
 
         <div class="rightblock">
           <div class="row-etap-number-r">
-            <h3>Торги</h3>
-            <p>Мы участвуем в торгах в любое время суток.Вы можете наблюдать за ходом торгов у себя дома или лично быть в нашем офисе.</p>
+            <h3>Торги на аукціоні</h3>
+            <p>Ми проводимо повний розрахунок вартості автомобіля із врахуванням всіх затрат (доставка, розмитнення, ремонт, сертифікація та постановка на облік) і визначаємо максимальну ставку, яку можемо зробити під час торгів, щоб не вийти за рамки вашого бюджету. Такий підхід оберігає наших клієнтів від переплат та прихованих платежів. Узгодивши максимальну ставку, купуємо авто на аукціоні та проводимо оплату будь-яким зручним для вас способом.</p>
             <div class="row-element1-r"></div>
             <div class="row-element2-r"><i class="fas fa-percent" aria-hidden="true"></i></div>
             <div class="row-element3-r"></div>
@@ -421,8 +482,10 @@
           </div>
 
           <div class="row-etap-number-r row-etap-number-r-s">
-            <h3>Растаможка</h3>
-            <p>Мы берём на себя весь комплекс работ: открытие контейнера, выгрузку, экспедицию и таможенную очистку. Все это без вашего присутствия и лишней траты времени.</p>
+            <h3>Розмитнення</h3>
+            <p>
+              По прибуттю в європейський порт транспортні засоби розвантажуються з контейнерів, так само проводиться детальний фотозвіт, та відправляються в Україну. Після перетину кордону ми займаємось розмитненням, для цього ваша присутність не обов’язкова. Пройшовши процедуру митного оформлення, ви можете забрати авто самостійно, або ми доставимо його у ваше місто чи місце подальшого ремонту.
+            </p>
             <div class="row-element1-r "></div>
             <div class="row-element2-r"><i class="far fa-handshake" aria-hidden="true"></i></div>
             <div class="row-element3-r"></div>
@@ -430,8 +493,10 @@
           </div>
 
           <div class="row-etap-number-r row-etap-number-r-s">
-            <h3>Ремонт</h3>
-            <p>Мы предоставляем услуги по ремонту вашего авто. Заказ запчастей чаще всего происходит до приезда авто в Украину, что позволяет нам быстро начать ремонт. Мы покупаем запчасти по самым низким ценам. Вы можете оплачивать их напрямую, без нашей наценки.</p>
+            <h3>Реєстрація</h3>
+            <p>
+              Останнім етапом є проходження сертифікації та реєстрація авто в сервісному центрі МВС. Тут нічого складного немає, проте за бажанням ми можемо взяти ці клопоти на себе. В тому числі оформити КАСКО чи автоцивілку.                                                                                                      Частим бажанням наших клієнтів є вибір гарної комбінації номерних знаків, для когось це 7777 чи 0001, а для когось якась важлива дата. Якщо хочете й собі цікавий номер – просто нагадайте про це персональному менеджеру і він все організує!
+            </p>
             <div class="row-element1-r"></div>
             <div class="row-element2-r"><i class="fas fa-tools" aria-hidden="true"></i></div>
             <div class="row-element3-r"></div>
@@ -470,8 +535,8 @@
         <div class="name_line"></div>
       </div>
       <p>
-        Наша история началась с 2018 года. Когда машины из Европы стали чем-то противоречивым и ненадежным, на рынке Украины по-прежнему оставались неадекватные цены, требовалось свежее решение для всех, у кого была потребность в покупке автомобиля.
-        <br><br> Мы выбрали Америку — потому что несмотря на пугающую их поначалу, автомобили из США стоят того, чтобы покупать и везти их в Украину. Лучше комплектация, прозрачная история, никакого скрученного пробега и цена - на 20-30% ниже, чем в Украине - преимущества более чем достаточно, чтобы отказаться навсегда от покупки битых-крашеных авто на местном рынке.
+        Наша історія почалася з 2018 року. Коли машини з Європи стали чим-то суперечливим і ненадійним, на ринку України як і раніше залишалися неадекватні ціни, вимагалося свіже рішення для всіх, у кого була потреба в покупці автомобіля.
+          <br><br> Ми вибрали Америку — тому що, незважаючи на те, що спочатку їх погашали, автомобілі зі США стоять того, щоб купувати і везти їх в Україну. Найкраща комплектація, прозора історія, ніякого скрученного пробігу і ціна - на 20-30% нижче, ніж в Україні - перевага більш ніж достатня, щоб відмовитися від покупки битих-крашених авто на місцевому ринку.
       </p>
     </div>
   </div>
@@ -543,6 +608,7 @@
 </div>
 
 <div class="container">
+  <a id='faq'></a>
   <div class="container-name">
     <div class="name_h2 faq_h2"><h2>ПИТАННЯ</h2></div>
     <div class="name_line"></div>
@@ -550,7 +616,7 @@
   <div class="faq">
     <div class="answer one">
       <div class="answer_block">
-      <div class="question js-tab_trigger"><h4>ЧОМУ ВИГІДНО КУПУВАТИ АВТО З США?</h4></div>
+      <div class="question js-tab_trigger"><h4>Чому вигідно купувати авто з США?</h4></div>
       <div class="answer_p js-tab_content">
         <p>
           В зависимости от аукциона и модели стоимость покупки авто в США примерно на 20-40% дешевле чем в Украине невзирая на формальности (доставка, растаможка). Также есть большая вероятность купить машину с маленьким пробегом и лучшей сборкой.
@@ -613,7 +679,7 @@
 
     <div class="faq-block">
       <div class="faq_img">
-        <img src="../img/aboutus.png" alt="">
+        <img src="./img/aboutus.png" alt="">
       </div>
 
     </div>
@@ -622,6 +688,7 @@
 
 
 <div class="reviews container">
+  <a id='vidguk'></a>
   <div class="container-name reviews_container">
     <div class="name_h2 reviews_h2"><h2>НАМ ДОВІРЯЮТЬ</h2></div>
     <div class="reviews_line"></div>
@@ -701,33 +768,34 @@
     <div class="swiper-wrapper">
       <!-- Slides -->
       <div class="swiper-slide">
-        <img src="../img/fixly_logo.svg" alt="">
+        <img src="./img/fixly_logo.svg" alt="">
       </div>
 
       <div class="swiper-slide">
-          <img src="../img/copart.png" alt="">
+          <img src="./img/copart.png" alt="">
       </div>
 
       <div class="swiper-slide">
-        <img src="../img/iaai.png" alt="">
+        <img src="./img/iaai.png" alt="">
       </div>
 
       <div class="swiper-slide">
-        <img src="../img/bosh.png" alt="">
+        <img src="./img/bosh.png" alt="">
       </div>
 
       <div class="swiper-slide">
-        <img src="../img/allegro.png" alt="">
+        <img src="./img/allegro.png" alt="">
       </div>
 
       <div class="swiper-slide">
-        <img src="../img/okko.png" alt="">
+        <img src="./img/okko.png" alt="">
       </div>
     </div>
   </div>
 </div>
 
 <div class="callback">
+  <a id='contact'></a>
   <div class="container-name container">
     <div class="name_h2 callback_h2"><h2>ЗВОРОТНІЙ ЗВ'ЯЗОК</h2></div>
     <div class="callback_content">
@@ -761,12 +829,26 @@
   </div>
 </div>
 
+
+<div class="showicon animate__animated animate__fadeIn animate__faster">
+  <div class="showicon-off"></div>
+  <div class="showicon-block">
+    <h2>ЗАЛИШТЕ ЗАЯВКУ І МИ ВАМ ЗАТЕЛЕФОНУЄМО!</h2>
+    <form action="#">
+      <input type="text" value="+380" maxlength="13">  <br>
+      <button type="button" name="button">ЗАЛИШИТИ ЗАЯВКУ</button>
+    </form>
+    <p>* Відправ заявку і ми зв'яжемось з вами найближчим часом</p>
+  </div>
+</div>
+
+
 <footer>
   <div class="fneed">
     <div class="footer_contant container">
       <div class="footer__block">
         <div class="footer_logo">
-          <img src="img/t-logo1.png" alt="">
+          <img src="./img/t-logo1.png" alt="">
           <span>BUYCARS</span>
         </div>
         <div class="footer_slogan">
@@ -808,7 +890,7 @@
           <h4>ЗАМОВИТИ ПІДБІР АВТО</h4>
           <form action="#">
             <input type="text" value="+380" maxlength="13">
-            <button type="button" name="button"><i class="fa-solid fa-arrow-right-long"></i></button>
+            <button type="button" name="button"><i class="fas fa-arrow-right"></i></button>
           </form>
           <p>* Відправ заявку і ми зв'яжемось з вами найближчим часом</p>
         </div>
@@ -824,11 +906,11 @@
 
 
 
-<script src="https://kit.fontawesome.com/8f7e613cff.js" crossorigin="anonymous"></script>
+
+
 <script src="https://kit.fontawesome.com/a6c6ae6641.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="../js/slider.js"></script>
-<script src="../js/script.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/script.js"></script>
 </html>

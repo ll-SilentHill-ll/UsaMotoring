@@ -47,6 +47,8 @@
   .reviews__slider {
     max-width: 100%;
     padding-bottom: 40px;
+    max-height: 300px;
+    height: 100vh;
 
     p {
       opacity: 0.7;
@@ -75,6 +77,14 @@
 
 .reviews__user_three {
   background-image: url('../img/user3.jpg');
+}
+
+.review_arrow_l {
+  transition: 0.3s;
+}
+
+.review_arrow_r {
+  transition: 0.3s;
 }
 
 

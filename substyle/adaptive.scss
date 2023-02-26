@@ -15,6 +15,10 @@
     width: 93%;
   }
 
+  .cars-img {
+    height: 285px;
+  }
+
   .art-block_img {
     max-width: 410px;
     height: 310px;
@@ -27,6 +31,7 @@
   .why_we .why_we_block {
     max-width: 580px;
   }
+
 
   .articles-block {
     max-width: 580px;
@@ -71,7 +76,8 @@
   }
 
   .row-etap-number p {
-    padding-left: 120px;
+    padding-left: 100px;
+    padding-right: 0px;
   }
 
   .row-etap-number {
@@ -95,7 +101,8 @@
   }
 
   .row-etap-number p {
-    padding-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .row-etap-number h3 {
@@ -111,7 +118,8 @@
   }
 
   .row-etap-number-r p {
-    padding-right: 20px;
+    padding-right: 0px;
+    padding-left: 43px;
 
   }
 
@@ -281,6 +289,10 @@
     width: 100%;
     max-width: auto;
   }
+
+  .heder-line {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -330,11 +342,33 @@
   .map_contact iframe {
     width: 95%;
   }
+
+  .mi-auto_name {
+    display: none;
+  }
+
+  .main-img img {
+    margin-top: 20px;
+  }
+
+  .mi-auto_name_adapt {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .mia__line {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .c__position {
     display: none;
+  }
+
+  .mia__line {
+    width: 100%;
   }
 
   .art-block_img {
@@ -346,7 +380,6 @@
   }
 
   .priceblock {
-    flex-wrap: wrap;
     text-align: center;
     gap: 20px;
   }
@@ -364,12 +397,105 @@
     width: 90vw;
   }
 
-  .line-price {
-    display: none;
-  }
+
 
   .example p {
     text-align: center;
+  }
+
+  .logo img {
+    max-height: 25px;
+  }
+
+  .logo span {
+    font-size: 18px;
+  }
+
+  .main {
+    margin-top: 0px;
+  }
+
+
+
+  .example {
+    margin-top: 20px;
+  }
+
+  .name_h2 h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .why_we .why_we_block {
+    margin-bottom: 20px;
+  }
+
+  .morecars-slider {
+    padding-top: 20px;
+  }
+
+  .why_usa .why_usa_block {
+    margin-bottom: 20px;
+  }
+
+  .abot_cars img{
+    display: none;
+  }
+
+  .js-tab_trigger:before {
+    right: 15.5px;
+    top: 50%;
+  }
+
+  .js-tab_trigger:after {
+    right: 25.5px;
+    top: 50%;
+  }
+
+  .js-tab_trigger.active:after {
+    right: 25.5px;
+  }
+
+  .js-tab_trigger.active:before {
+    right: 15.5px;
+  }
+
+  .articles-block_last {
+    margin-bottom: 0px;
+  }
+
+  .faq {
+    margin-bottom: 0px;
+  }
+
+  .reviews_block {
+    margin-top: 20px;
+  }
+
+  .reviews_block .reviews__slider {
+    padding-bottom: 0px;
+  }
+
+  .map_contact p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .form-flexbox {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .form-button {
+    margin-bottom: 0px;
+  }
+
+  .callback {
+    padding-top: 1px;
+  }
+
+  .callback_h2 h2{
+    margin-top: 19px;
   }
 
 }
@@ -386,18 +512,26 @@
     gap: 0px;
   }
 
-  .slider_arrow {
-    display: none;
+  .slider_arrow_left {
+    padding: 10px;
   }
 
-  .review_arrow {
-    display: none;
+  .slider_arrow_right {
+    padding: 10px;
   }
 
   .morecars-slider {
     text-align: center;
     margin-top: 0px;
-    padding-top: 20px;
+  }
+
+
+  .review_arrow_l {
+    padding: 10px;
+  }
+
+  .review_arrow_r {
+    padding: 10px;
   }
 
   .carslider__line {

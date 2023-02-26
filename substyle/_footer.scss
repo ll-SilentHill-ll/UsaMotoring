@@ -77,6 +77,13 @@ footer {
     font-size: 14px;
     border-radius: 10px;
     margin-left: -25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    transition: 0.3s;
+    background-color: #888;
   }
 }
 
