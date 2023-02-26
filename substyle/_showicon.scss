@@ -16,7 +16,10 @@
   background-image: url(../img/111.png);
   background-size: cover;
   background-position: center;
-  display: none;
+  visibility: visible;
+  transform: translate( 100%, 0%) scale(0);
+  transition: 1s;
+  opacity: 0;
 
 
   h2 {
@@ -96,5 +99,7 @@
 }
 
 .showicon-on {
-  display: block;
+  transform: translate(0%, 0%) scale(1);
+  transition: 1s;
+  opacity: 1;
 }

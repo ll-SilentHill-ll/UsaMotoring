@@ -2233,7 +2233,12 @@ h1 {
   background-image: url(../img/111.png);
   background-size: cover;
   background-position: center;
-  display: none;
+  visibility: visible;
+  -webkit-transform: translate(100%, 0%) scale(0);
+          transform: translate(100%, 0%) scale(0);
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
 }
 .showicon h2 {
   color: rgb(144, 144, 144);
@@ -2310,5 +2315,9 @@ h1 {
 }
 
 .showicon-on {
-  display: block;
+  -webkit-transform: translate(0%, 0%) scale(1);
+          transform: translate(0%, 0%) scale(1);
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 1;
 }
