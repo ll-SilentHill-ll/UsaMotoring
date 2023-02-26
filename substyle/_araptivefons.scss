@@ -90,3 +90,7 @@ h1 {
 .swiper-slide .price .price_block span {
   @include fonsadaptive (11, 6)
 }
+
+.showicon h2 {
+  @include fonsadaptive (36, 26)
+}

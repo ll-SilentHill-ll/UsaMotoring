@@ -5,6 +5,8 @@
 }
 
 .showicon {
+  padding-left: 20px;
+  padding-right: 20px;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -25,7 +27,6 @@
   h2 {
     color: rgb(144, 144, 144);
     font-weight: 700;
-    font-size: 36px;
     margin-top: 20vh;
     margin-bottom: 20px;
   }
@@ -76,7 +77,6 @@
   height: 30px;
   position: relative;
   top: 20px;
-  left: 20px;
 }
 .showicon-off:after {
   content: '';
