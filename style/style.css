@@ -1557,7 +1557,7 @@ h1 {
 }
 
 .showicon h2 {
-  font-size: calc(26px + 10 * ((100vw - 320px) / 1160));
+  font-size: calc(20px + 16 * ((100vw - 320px) / 1160));
 }
 
 .row-etap-number {
