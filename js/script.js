@@ -34,6 +34,11 @@ $(document).ready(function(){
 	$('.showicon').removeClass('showicon-on')
 	});
 
+	$('.articles-block').click(function () {
+		window.open('repair.html');
+
+	});
+
 	var $page = $('html, body');
 	$('a[href*="#"]').click(function() {
 		$page.animate({

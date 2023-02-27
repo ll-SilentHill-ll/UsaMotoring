@@ -1927,6 +1927,33 @@ h1 {
   opacity: 1;
 }
 
+.repair {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 600px;
+  text-align: center;
+  font-weight: 900;
+  color: #393939;
+  margin-bottom: 10px;
+  line-height: 1.7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.repair-img img {
+  max-width: 400px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.repair-text span {
+  font-size: 24px;
+}
+
 @media screen and (max-width: 1510px) {
   .why_usa .why_usa_block {
     max-width: 380px;
