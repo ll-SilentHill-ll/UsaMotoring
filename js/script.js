@@ -46,4 +46,10 @@ $(document).ready(function(){
 		}, 1000);
 		return false;
 	});
+
+	$('[name=user_phone]').bind("change keyup input click", function() {
+			if (this.value.match(/[^0-9, +]/g)) {
+					this.value = this.value.replace(/[^0-9, +]/g, '');
+				}
+			});
 });
