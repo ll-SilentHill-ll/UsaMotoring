@@ -369,3 +369,26 @@ header {
   background: linear-gradient(153deg, rgb(14, 82, 35) 26%, rgb(2, 36, 19) 87%);
   transition: 0.3s;
 }
+
+.arrow_top:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.arrow_top {
+padding: 15px;
+font-size: 15px;
+border-radius: 5px;
+background: linear-gradient(153deg, rgb(14, 82, 35) 26%, rgb(2, 36, 19) 87%);
+opacity: 0.7;
+color: #fff;
+cursor: pointer;
+margin-right: 0px;
+position: fixed;
+right: 40px;
+bottom: 20px;
+z-index: 9999;
+transform: rotate(-90deg);
+transition: 0.3s;
+letter-spacing: -3px;
+}

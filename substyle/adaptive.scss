@@ -391,7 +391,12 @@
 
   .priceblock {
     text-align: center;
-    gap: 20px;
+    gap: 10px;
+  }
+
+  .phonescreen_none {
+    display: none;
+
   }
 
   .usa-pice {
@@ -489,6 +494,7 @@
   .map_contact p {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 5px;
   }
 
   .form-flexbox {
@@ -550,5 +556,10 @@
 
   .carslider_flex {
     gap: 10px;
+  }
+
+  .map_contact p {
+    font-size: 12px;
+    padding-top: 10px;
   }
 }
