@@ -371,6 +371,7 @@ header {
 .ad_header__list li {
   list-style: none;
   padding-bottom: 40px;
+  margin-top: 10px;
 }
 
 .menu_stop {
@@ -384,12 +385,12 @@ header {
 .ad-menu_off:after {
   content: "";
   position: absolute;
-  top: 55px;
-  right: 10px;
+  top: 30px;
+  left: 20px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   height: 2px;
-  width: 40px;
+  width: 30px;
   background: linear-gradient(153deg, rgb(14, 82, 35) 26%, rgb(2, 36, 19) 87%);
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -398,12 +399,12 @@ header {
 .ad-menu_off:before {
   content: "";
   position: absolute;
-  top: 55px;
-  right: 10px;
+  top: 30px;
+  left: 20px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   height: 2px;
-  width: 40px;
+  width: 30px;
   background: linear-gradient(153deg, rgb(14, 82, 35) 26%, rgb(2, 36, 19) 87%);
   -webkit-transition: 0.3s;
   transition: 0.3s;
