@@ -837,9 +837,9 @@
   <div class="showicon-off"></div>
   <div class="showicon-block">
     <h2>ЗАЛИШТЕ ЗАЯВКУ І МИ ВАМ ЗАТЕЛЕФОНУЄМО!</h2>
-    <form action="#">
-      <input type="text" value="+380" maxlength="13">  <br>
-      <button type="button" name="button">ЗАЛИШИТИ ЗАЯВКУ</button>
+    <form action="telegram.php" method="POST">
+      <input type="text" name="user_phone" placeholder="+380(96)-432-11-11">  <br>
+      <button type="submit" name="button">ЗАЛИШИТИ ЗАЯВКУ</button>
     </form>
     <p>* Відправ заявку і ми зв'яжемось з вами найближчим часом</p>
   </div>
@@ -893,9 +893,9 @@
       <div class="footer__block">
         <div class="footer_form">
           <h4>ЗАМОВИТИ ПІДБІР АВТО</h4>
-          <form action="#">
-            <input type="text" value="+380" maxlength="13">
-            <button type="button" name="button"><i class="fas fa-arrow-right"></i></button>
+          <form action="telegram.php" method="POST">
+            <input type="text" name="user_phone" value="+380" maxlength="13">
+            <button type="submit" name="button"><i class="fas fa-arrow-right"></i></button>
           </form>
           <p>* Відправ заявку і ми зв'яжемось з вами найближчим часом</p>
         </div>
