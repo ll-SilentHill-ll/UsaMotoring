@@ -425,7 +425,7 @@ header {
   cursor: pointer;
   margin-right: 0px;
   position: fixed;
-  right: 40px;
+  right: 20px;
   bottom: 20px;
   z-index: 9999;
   -webkit-transform: rotate(-90deg);
