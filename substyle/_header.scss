@@ -33,13 +33,25 @@ header {
   span {
     margin-left: 5px;
   }
+
+  a {
+    font-size: 14px;
+    color: #393939;
+  }
 }
 
 
 
 .c__number {
-  font-weight: bold;
+
   color: #004600;
+  a {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  span {
+    font-weight: 900;
+  }
 }
 
 .c__social a {
@@ -54,6 +66,7 @@ header {
 .c__social a i:hover{
   color: #004600;
   transition: 0.3s;
+  transform: scale(1.1);
 }
 
 
@@ -62,6 +75,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  .logo {
+    cursor: pointer;
+  }
 }
 
 .header__list {

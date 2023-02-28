@@ -109,11 +109,15 @@ a {
   margin-top: 40px;
   margin-bottom: 20px;
   display: block;
+  transition: 0.3s;
 }
 
 .price_readmore:hover {
-  color: rgb(14, 82, 35);
+  color: #004600;
+  transition: 0.3s;
 }
+
+
 
 .price_slide__button {
   background: linear-gradient(153deg, rgb(14, 82, 35) 26%, rgb(2, 36, 19) 87%);

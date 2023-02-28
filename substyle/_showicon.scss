@@ -2,6 +2,33 @@
   max-width: 50vw;
   width: 100%;
   text-align: center;
+
+  button {
+    max-width: 420px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #989898;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    transition: 1s;
+    letter-spacing: 1.2px;
+    background: linear-gradient(153deg, rgb(14, 82, 35) 26%, rgb(2, 36, 19) 87%);
+    opacity: 0.8;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+
+  button:hover {
+    opacity: 1;
+    transition: 0.3s;
+  }
 }
 
 .showicon {
@@ -45,26 +72,7 @@
 
   }
 
-  button {
-    max-width: 420px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #989898;
-    background-color: #eaeaea;
-    border-radius: 5px;
-    font-family: "Montserrat", sans-serif;
-    color: #fff;
-    font-weight: 600;
-    cursor: pointer;
-    -webkit-transition: 1s;
-    transition: 1s;
-    letter-spacing: 1.2px;
-    background: linear-gradient(153deg, rgb(14, 82, 35) 26%, rgb(2, 36, 19) 87%);
-    opacity: 0.8;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
+
 }
 
 .showicon-off {

@@ -83,3 +83,15 @@
   margin-bottom: 20px;
   max-width: 400px;
 }
+
+.share__social  {
+
+  i {
+    transition: 0.3s;
+  }
+
+  i:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+}
