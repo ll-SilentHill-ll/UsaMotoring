@@ -639,27 +639,27 @@ header {
 }
 
 .cars-img_one {
-  background-image: url("../img/slide-1.jpg");
+  background-image: url("../img/slide-1.webp");
 }
 
 .cars-img_two {
-  background-image: url("../img/slide-2.jpg");
+  background-image: url("../img/slide-2.webp");
 }
 
 .cars-img_three {
-  background-image: url("../img/slide-3.jpg");
+  background-image: url("../img/slide-3.webp");
 }
 
 .cars-img_four {
-  background-image: url("../img/slide-4.jpg");
+  background-image: url("../img/slide-4.webp");
 }
 
 .cars-img_five {
-  background-image: url("../img/slide-5.jpg");
+  background-image: url("../img/slide-5.webp");
 }
 
 .cars-img_six {
-  background-image: url("../img/slide-6.jpg");
+  background-image: url("../img/slide-6.webp");
 }
 
 a {
@@ -1146,7 +1146,7 @@ footer .footer_logo {
 }
 
 .art-news_one {
-  background-image: url(../img/powershift.jpg);
+  background-image: url(../img/powershift.webp);
 }
 
 .articles {
@@ -1164,11 +1164,11 @@ footer .footer_logo {
 }
 
 .art-news_two {
-  background-image: url(../img/news2.jpg);
+  background-image: url(../img/news2.webp);
 }
 
 .art-news_three {
-  background-image: url(../img/news3.jpg);
+  background-image: url(../img/news3.webp);
 }
 
 .art-block_share {
@@ -1292,7 +1292,7 @@ footer .footer_logo {
 }
 
 .callback {
-  background-image: url("../img/bgmustang.jpg");
+  background-image: url("../img/bgmustang.webp");
   background-size: cover;
   background-position: center;
   padding-top: 40px;
@@ -1445,15 +1445,15 @@ footer .footer_logo {
 }
 
 .reviews__user_one {
-  background-image: url("../img/user1.jpg");
+  background-image: url("../img/user1.webp");
 }
 
 .reviews__user_two {
-  background-image: url("../img/user2.jpg");
+  background-image: url("../img/user2.webp");
 }
 
 .reviews__user_three {
-  background-image: url("../img/user3.jpg");
+  background-image: url("../img/user3.webp");
 }
 
 .review_arrow_l {
