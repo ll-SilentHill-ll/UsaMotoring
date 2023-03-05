@@ -2503,6 +2503,7 @@ h1 {
   }
 }
 .carinfo-l_title {
+  margin-top: 2.5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
