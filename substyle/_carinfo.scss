@@ -1,0 +1,41 @@
+.carinfo-l_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.carinfo-left {
+  border-radius: 5px;
+  max-width: 1000px;
+  width: 100%;
+  background-color: #fff;
+
+}
+
+.car-gallery {
+  padding: 10px;
+  a {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+
+.car_photo_min {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+  margin-top: 10px;
+  img {
+    border-radius: 5px;
+    width: 100%;
+  }
+}
