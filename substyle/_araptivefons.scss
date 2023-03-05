@@ -94,3 +94,19 @@ h1 {
 .showicon h2 {
   @include fonsadaptive (36, 20)
 }
+
+.pagenews_h2 {
+  @include fonsadaptive (54, 28);
+}
+
+.newsone-title h2 {
+  @include fonsadaptive (36, 20);
+}
+
+.newsone-title a {
+    @include fonsadaptive (36, 20);
+}
+
+.np-news_title i {
+  @include fonsadaptive (20, 14);
+}
