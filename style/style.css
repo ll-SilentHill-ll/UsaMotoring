@@ -2361,8 +2361,16 @@ h1 {
     margin: auto;
     margin-top: 30px;
     width: 70%;
-    height: 240px;
+    height: 320px;
     background-position: center;
+  }
+  .nrb__text_title {
+    font-size: 24px;
+  }
+  .nrb__img {
+    max-width: 140px;
+    height: 100px;
+    margin-right: 20px;
   }
   .nrb_readmore {
     -webkit-box-pack: center;
@@ -2375,6 +2383,13 @@ h1 {
     float: none;
     max-width: 100vw;
     width: 100%;
+  }
+  .lastnews-img {
+    width: 100%;
+    height: 200px;
+  }
+  .nrb__img {
+    margin-right: 0px;
   }
 }
 @media screen and (max-width: 1510px) {
