@@ -110,3 +110,27 @@ h1 {
 .np-news_title i {
   @include fonsadaptive (20, 14);
 }
+
+.car_name {
+  @include fonsadaptive (24, 16);
+}
+
+.car_price span {
+  @include fonsadaptive (24, 16);
+}
+
+.car_price p {
+  @include fonsadaptive (16, 10);
+}
+
+.carinfo-right_block h4 {
+    @include fonsadaptive (20, 16);
+}
+
+.carinfo-right_block h4 span {
+  @include fonsadaptive (12, 9);
+}
+
+.car-right_block__social i {
+  @include fonsadaptive (52, 42);
+}

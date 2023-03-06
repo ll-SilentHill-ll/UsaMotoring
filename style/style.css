@@ -1529,108 +1529,6 @@ footer .footer_logo {
   font-weight: 600;
 }
 
-/* в h2 замінив 60 на 54 а 34 на 28  */
-/* в р замінив 16 на 14 а 14 на 12  */
-h1 {
-  font-size: calc(25px + 19 * ((100vw - 320px) / 1160));
-}
-
-.name_h2 h2 {
-  font-size: calc(28px + 26 * ((100vw - 320px) / 1160));
-}
-
-.carslider_h2 h2 {
-  font-size: calc(28px + 26 * ((100vw - 320px) / 1160));
-}
-
-.contact-box h2 {
-  font-size: calc(28px + 26 * ((100vw - 320px) / 1160));
-}
-
-.priceblock span {
-  font-size: calc(18px + 27 * ((100vw - 320px) / 1160));
-}
-
-.main-text p {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.why_we .why_we_block p {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.why_usa .why_usa_block h3 {
-  font-size: calc(18px + 6 * ((100vw - 320px) / 1160));
-}
-
-.aboutinfo p {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.answer_block p {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.reviews__user_text {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.why_we .why_we_block h3 {
-  font-size: calc(18px + 6 * ((100vw - 320px) / 1160));
-}
-
-.why_usa .why_usa_block p {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.etap_adapt p {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.mb_click {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.row-etap-number p {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.row-etap-number-r p {
-  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
-}
-
-.why_we .why_we_block i {
-  font-size: calc(36px + 12 * ((100vw - 320px) / 1160));
-}
-
-.why_usa .why_usa_block i {
-  font-size: calc(36px + 12 * ((100vw - 320px) / 1160));
-}
-
-.swiper-slide .price .price_block span {
-  font-size: calc(6px + 5 * ((100vw - 320px) / 1160));
-}
-
-.showicon h2 {
-  font-size: calc(20px + 16 * ((100vw - 320px) / 1160));
-}
-
-.pagenews_h2 {
-  font-size: calc(28px + 26 * ((100vw - 320px) / 1160));
-}
-
-.newsone-title h2 {
-  font-size: calc(20px + 16 * ((100vw - 320px) / 1160));
-}
-
-.newsone-title a {
-  font-size: calc(20px + 16 * ((100vw - 320px) / 1160));
-}
-
-.np-news_title i {
-  font-size: calc(14px + 6 * ((100vw - 320px) / 1160));
-}
-
 .row-etap-number {
   position: relative;
   max-width: 580px;
@@ -3309,4 +3207,129 @@ body {
     font-size: 12px;
     padding-top: 10px;
   }
+}
+/* в h2 замінив 60 на 54 а 34 на 28  */
+/* в р замінив 16 на 14 а 14 на 12  */
+h1 {
+  font-size: calc(25px + 19 * ((100vw - 320px) / 1160));
+}
+
+.name_h2 h2 {
+  font-size: calc(28px + 26 * ((100vw - 320px) / 1160));
+}
+
+.carslider_h2 h2 {
+  font-size: calc(28px + 26 * ((100vw - 320px) / 1160));
+}
+
+.contact-box h2 {
+  font-size: calc(28px + 26 * ((100vw - 320px) / 1160));
+}
+
+.priceblock span {
+  font-size: calc(18px + 27 * ((100vw - 320px) / 1160));
+}
+
+.main-text p {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.why_we .why_we_block p {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.why_usa .why_usa_block h3 {
+  font-size: calc(18px + 6 * ((100vw - 320px) / 1160));
+}
+
+.aboutinfo p {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.answer_block p {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.reviews__user_text {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.why_we .why_we_block h3 {
+  font-size: calc(18px + 6 * ((100vw - 320px) / 1160));
+}
+
+.why_usa .why_usa_block p {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.etap_adapt p {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.mb_click {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.row-etap-number p {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.row-etap-number-r p {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1160));
+}
+
+.why_we .why_we_block i {
+  font-size: calc(36px + 12 * ((100vw - 320px) / 1160));
+}
+
+.why_usa .why_usa_block i {
+  font-size: calc(36px + 12 * ((100vw - 320px) / 1160));
+}
+
+.swiper-slide .price .price_block span {
+  font-size: calc(6px + 5 * ((100vw - 320px) / 1160));
+}
+
+.showicon h2 {
+  font-size: calc(20px + 16 * ((100vw - 320px) / 1160));
+}
+
+.pagenews_h2 {
+  font-size: calc(28px + 26 * ((100vw - 320px) / 1160));
+}
+
+.newsone-title h2 {
+  font-size: calc(20px + 16 * ((100vw - 320px) / 1160));
+}
+
+.newsone-title a {
+  font-size: calc(20px + 16 * ((100vw - 320px) / 1160));
+}
+
+.np-news_title i {
+  font-size: calc(14px + 6 * ((100vw - 320px) / 1160));
+}
+
+.car_name {
+  font-size: calc(16px + 8 * ((100vw - 320px) / 1160));
+}
+
+.car_price span {
+  font-size: calc(16px + 8 * ((100vw - 320px) / 1160));
+}
+
+.car_price p {
+  font-size: calc(10px + 6 * ((100vw - 320px) / 1160));
+}
+
+.carinfo-right_block h4 {
+  font-size: calc(16px + 4 * ((100vw - 320px) / 1160));
+}
+
+.carinfo-right_block h4 span {
+  font-size: calc(9px + 3 * ((100vw - 320px) / 1160));
+}
+
+.car-right_block__social i {
+  font-size: calc(42px + 10 * ((100vw - 320px) / 1160));
 }
