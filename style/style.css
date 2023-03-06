@@ -2631,7 +2631,6 @@ body {
 .morecars-block .mc-block_img img {
   width: 100%;
   height: auto;
-  max-height: 300px;
   border-top: 5px;
 }
 
@@ -2745,6 +2744,11 @@ body {
 
 .car__min_none {
   display: none;
+}
+
+.mpc_info-item {
+  width: 102px;
+  margin: auto;
 }
 
 @media screen and (max-width: 920px) {
