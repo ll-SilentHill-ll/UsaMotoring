@@ -1,25 +1,52 @@
-.carinfo-l_title {
+.carinfomain {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 2.5vw;
+}
+
+.carinfo_line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carinfo-right {
+  max-width: 32%;
+  width: 100vw;
+
+
+
+}
+
+.carinfo-l_title {
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-bottom: 15px;
+  border: 1px solid #c0c0c0;
+
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 
 .carinfo-left {
   border-radius: 5px;
-  max-width: 1000px;
-  width: 100%;
-  background-color: #fff;
+  max-width: 65%;
+  width: 100vw;
 
 }
 
 .car-gallery {
+  background-color: #fff;
+  border: 1px solid #c0c0c0;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   padding: 10px;
   a {
     img {
@@ -38,5 +65,320 @@
   img {
     border-radius: 5px;
     width: 100%;
+  }
+}
+
+.car_name {
+  font-size: 24px;
+    font-weight: 900;
+    color: #393939;
+
+}
+
+.car_price {
+  span {
+      font-size: 24px;
+      font-weight: 900;
+      color: #393939;
+
+  }
+
+  p {
+      font-size: 16px;
+      font-weight: 900;
+      color: #393939;
+  }
+
+  i {
+    color: rgb(14, 82, 35);
+  }
+}
+
+.carinfo-right_block {
+  border: 1px solid #c0c0c0;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+
+
+  h4 {
+    font-size: 20px;
+
+    span {
+      font-size: 12px;
+    }
+  }
+
+  i {
+    padding-right: 10px;
+    font-size: 30px;
+  }
+}
+
+
+.carinfo_line {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+
+  p {
+    font-weight: 600;
+  }
+
+  i {
+    padding-right: 10px;
+    font-size: 20px;
+    color: rgb(14,82,35);
+  }
+
+  span {
+    font-weight: 700;
+  }
+
+}
+
+.carinfo_buythiscar {
+
+  position: relative;
+  max-width: calc(100% - 40px);
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+body {
+  height: auto;
+}
+
+.carinfo_block__title {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(14,82,35);
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.car-right_block__social {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  i {
+    padding: 0px;
+    font-size: 52px;
+
+  }
+
+  .fa-viber {
+    color: #59267c;
+  }
+
+  .fa-telegram {
+    color: #0088cc;
+  }
+
+  .fa-square-facebook {
+    color: #4267B2;
+  }
+
+  .fa-instagram {
+    color: #C13584;
+  }
+
+  .fa-youtube {
+    color: #FF0000;
+  }
+}
+
+.fancybox__backdrop {
+      background: linear-gradient(180deg, rgba(79,117,89,0) 0%, rgba(36,117,59,0.59156162464986) 0%, rgba(0,0,0,0.7932422969187676) 0%);
+      backdrop-filter: blur(2px);
+}
+
+.car_informations {
+  background-color: #fff;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #c0c0c0;
+  p {
+    letter-spacing: 1.7;
+    line-height: 1.7;
+    opacity: 0.8;
+    font-size: 16px;
+  }
+}
+
+
+.morecars-block {
+
+  max-width: 30vw;
+  position: relative;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+
+
+  .mc-block_img
+
+   img{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-top: 5px;
+  }
+}
+
+.morecars h3 {
+  color: rgb(144,144,144);
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 1;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c0c0c0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.mc-block_title h5 {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  color: #393939;
+  border-bottom: 1px solid #c0c0c0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.mc-block_info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #393939;
+  border-bottom: 1px solid #e0e0e0;
+
+  span {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+
+  i {
+    font-size: 18px;
+    padding-right: 5px;
+  }
+}
+
+.mc-block_price {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 900;
+  font-size: 22px;
+
+  span {
+    color: #393939;
+
+  }
+
+  i {
+    color: rgb(14,82,35);
+  }
+}
+
+.mc-block_click {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+
+  .mcb_click__item {
+    text-align: center;
+
+    width: 100%;
+
+    a {
+      display: block;
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-weight: 700;
+    }
+
+  }
+}
+
+.click__item_buy {
+  background-color: #e0e0e0;
+  border-bottom-left-radius: 5px;
+}
+
+.click__item_more {
+  border-bottom-right-radius: 5px;
+}
+
+.morecars {
+  margin-bottom: 30px;
+
+}
+
+.cars-block__item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+
+
+@media screen and ( max-width: 920px ) {
+  .carinfomain {
+    display: block;
+  }
+
+  .carinfo-left {
+    max-width: 100%;
+  }
+
+  .car_informations {
+    margin-bottom: 30px;
+  }
+
+  .carinfo-right {
+    max-width: 100%;
+  }
+
+  .morecars-block {
+    max-width: 45vw;
+  }
+}
+
+@media screen and ( max-width: 650px ) {
+  .morecars-block {
+    max-width: 420px;
+    margin: auto;
+    margin-bottom: 30px;
   }
 }
