@@ -2743,6 +2743,10 @@ body {
       flex-wrap: wrap;
 }
 
+.car__min_none {
+  display: none;
+}
+
 @media screen and (max-width: 920px) {
   .carinfomain {
     display: block;
