@@ -1184,6 +1184,8 @@ footer .footer_logo {
 .art-block_title {
   border-bottom: 1px solid #c0c0c0;
   padding-bottom: 30px;
+}
+.art-block_title i {
   font-size: 24px;
   font-weight: 500;
   color: rgb(14, 82, 35);
@@ -3042,6 +3044,7 @@ body {
 @media screen and (max-width: 1060px) {
   .right-mblock_car {
     display: block;
+    max-width: 48%;
   }
   .rmc__img {
     margin: auto;
@@ -3054,6 +3057,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     gap: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .rmc-car_price a {
     width: 100%;
@@ -3061,9 +3066,12 @@ body {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 880px) {
   .right-mainblock {
     display: block;
+  }
+  .right-mblock_car {
+    max-width: 100%;
   }
   .rmc-car_price p {
     width: 100%;

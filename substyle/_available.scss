@@ -280,6 +280,8 @@
 @media screen and ( max-width: 1060px ) {
   .right-mblock_car {
     display: block;
+    max-width: 48%;
+
 
   }
 
@@ -293,6 +295,7 @@
     height: 100%;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
   }
 
   .rmc-car_price a {
@@ -304,10 +307,14 @@
 }
 
 
-@media screen and ( max-width: 860px ) {
+@media screen and ( max-width: 880px ) {
   .right-mainblock {
     display: block;
 
+  }
+
+  .right-mblock_car {
+    max-width: 100%;
   }
 
   .rmc-car_price p {

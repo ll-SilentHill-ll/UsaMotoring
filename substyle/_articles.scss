@@ -45,9 +45,12 @@
 .art-block_title {
   border-bottom: 1px solid #c0c0c0;;
   padding-bottom: 30px;
-  font-size: 24px;
-  font-weight: 500;
-  color: rgb(14, 82, 35);
+
+  i {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(14, 82, 35);
+  }
 }
 
 .art-block_date {
