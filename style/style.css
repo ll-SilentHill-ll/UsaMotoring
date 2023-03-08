@@ -2976,6 +2976,10 @@ body {
   transition: 0.3;
 }
 
+.availablepage_filter__click {
+  display: none;
+}
+
 @media screen and (max-width: 1420px) {
   .rmc_car__centerline {
     gap: 15px;
