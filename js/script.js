@@ -53,5 +53,7 @@ $(document).ready(function(){
 				}
 			});
 
-			
+	$('.availablepage_filter__click').click(function(){
+	$('.left_sidebar').toggleClass('left_sidebar_resize')
+	});
 });

@@ -134,3 +134,23 @@ h1 {
 .car-right_block__social i {
   @include fonsadaptive (52, 42);
 }
+
+.rmc_car__topline a {
+  @include fonsadaptive (18, 14);
+}
+
+.car-here_icon i {
+  @include fonsadaptive (32, 12);
+}
+
+.car-here_icon span {
+  @include fonsadaptive (18, 12);
+}
+
+.rmc-car_price span {
+  @include fonsadaptive (20, 14);
+}
+
+.rmc-car_price i {
+  @include fonsadaptive (24, 14);
+}
