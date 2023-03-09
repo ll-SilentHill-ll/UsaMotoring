@@ -1,3 +1,6 @@
+
+
+
 .availablepage {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -15,8 +18,10 @@
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 10px;
   border-radius: 5px;
   border: 1px solid #c0c0c0;
+  height: 100%;
   h4 {
     text-align: center;
     color: #393939;
@@ -40,9 +45,11 @@
 .right-mainblock {
   max-width: calc(100vw - 400px);
   width: 100%;
+
 }
 
 .right-mblock_car {
+  display: none;
   border-radius: 5px;
   border: 1px solid #c0c0c0;
   padding: 10px;
@@ -191,6 +198,32 @@
   display: none;
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+    padding: 15px;
+    width: 100%;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #393939;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #e0e0e0;
+}
+
+.yearblock-flex {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap:30px;
+
+}
 
 
 

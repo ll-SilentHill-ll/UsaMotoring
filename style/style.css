@@ -2798,8 +2798,10 @@ body {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 10px;
   border-radius: 5px;
   border: 1px solid #c0c0c0;
+  height: 100%;
 }
 .left_sidebar h4 {
   text-align: center;
@@ -2823,6 +2825,7 @@ body {
 }
 
 .right-mblock_car {
+  display: none;
   border-radius: 5px;
   border: 1px solid #c0c0c0;
   padding: 10px;
@@ -2980,6 +2983,37 @@ body {
 
 .availablepage_filter__click {
   display: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  padding: 15px;
+  width: 100%;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #393939;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #e0e0e0;
+}
+
+.yearblock-flex {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
 }
 
 @media screen and (max-width: 1420px) {
