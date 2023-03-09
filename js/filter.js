@@ -49,7 +49,7 @@ function filterCars() {
       (isNaN(yearStart) || carYear >= yearStart) && (isNaN(yearEnd) || carYear <= yearEnd);
 
     if (makeVisible && colorVisible && fuelVisible && transmissionVisible && driveVisible && yearVisible) {
-      car.style.display = "flex";
+      car.style.display = "";
     } else {
       car.style.display = "none";
     }
