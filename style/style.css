@@ -3002,7 +3002,8 @@ input[type=number] {
   color: #393939;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  border: 1px solid #e0e0e0;
+  border: 2px solid #7a7a7a;
+  outline: none;
 }
 
 .yearblock-flex {
@@ -3013,7 +3014,11 @@ input[type=number] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
+  gap: 10px;
+}
+
+input[type=number]:focus {
+  border: 2px solid rgb(14, 82, 35);
 }
 
 @media screen and (max-width: 1420px) {
